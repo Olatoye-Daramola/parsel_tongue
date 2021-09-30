@@ -63,3 +63,6 @@ class Building:
     def __str__(self):
         return self.building_name + "\n" + self.building_address + "\n"
 
+
+class DataBase:
+    general_dict = {}
